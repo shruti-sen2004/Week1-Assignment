@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* header portion */
+nav{
+    background-color: #ACECE8;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+.menu-items{
+    list-style: none;
+    display:flex;
+    gap:56px;
+    font-size: 20px;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* Banner section */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #18736D;
+    height:500px;
+    
+}
+
+.hero-img{
+    width: 300px;
+    height: 400px;
+    left:200px;
+    
+}
+
+.title{
+    font-size:90px;
+    color: white;
+    
+}
+
+.left-contain{
+    text-align: left;
+    margin-right: 200px;
+    font-family:Poppins;
+}
+
+.left-contain p{
+    font-size: 20px;
+    color: rgb(204, 200, 200);
+    font-weight: 500;
+    padding: 10px;
+}
+
+.left-contain button{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #092D43;
+    border:none;
+    color: white;
+    font-family:Poppins;   
+}
+
+.left-contain button:hover{
+    background-color: rgba(0, 255, 255, 0.305);
+    cursor: pointer;
+}
+
+
+.rectangle-2{
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    display : flex; 
+    justify-content : center;
+    align-items : center;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 990px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+/* Service section */
+.service{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: #CBF1EF;
+    height: 600px;
+    
+}
+
+.service .left h1{
+    font-size: 60px;
+    color:  #092D43;
+    margin-left: 100px;
+    font-family:Poppins;
+    
+}
+
+.service .left p{
+    font-size:20px;
+    color: #643939;
+    margin-left: 40px;
+    padding:50px;
+}
+
+.service .right{
+    margin-top:50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 50px;
+    
+  }
+  
+  .top-row,
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+  }
+  
+  .box {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  
+  .top-row .box {
+    margin-left: 50px;
+  }
+  
+  .bottom-row .box {
+    margin-left:50px ;
+  }
+
+.container h1{
+    color: rgba(128, 128, 128, 0.412);
+    font-size: 100px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.container h3{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: -110px;
+}
+
+.container p{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    margin-left: 120px;
+    padding:2px;
+}
+
+/* REVIEW SECTION */
+.review{
+    height: 600px;
+    background-color: #18736D;
+    text-align: center;
+}
+
+.review h1{
+    font-size: 50px;
+    padding: 10px;
+    color: #fff;
+    font-family:Poppins;
+}
+
+.rev-boxes{
+    display: flex;
+    
+}
+
+.rbox1{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    margin-top:50px;
+    border-radius: 15px; 
+    border : 50px 50px 50px 50px ;
+    margin-left: 200px;
+    
+}
+
+.rbox2{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    margin-top:50px;
+    border-radius: 15px; 
+    border : 50px 50px 50px 50px ;
+    margin-left: 400px;
+}
+
+.rbox1 h1 , .rbox2 h1{
+    color: black;
+    font-size:30px;
+}
+
+span{
+    border-top: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top:250px;
+    margin-left: -250px;
+    display: flex;
+}
+
+.rev-boxes .img img{
+    height: 50px;
+    width:50px;
+    margin-top: 300px;
+}
+
+.rev-boxes .img h3{
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+}
+
+.rev-boxes .img h6{
+    display: flex;
+    font-size: 10px;
+    color: #fff;
+}
+
+.review button{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #092D43;
+    border:none;
+    color: white; 
+    margin-left: 150px;
+    font-family:Poppins;
+}
+
+.review button:hover{
+    background-color: rgba(0, 255, 255, 0.305);
+    cursor: pointer;
+}
+
+/* QUESTIONS SECTION */
+.questions{
+    text-align: center;
+    height:400px;
+    justify-content: center;
+    font-family:Poppins;
+}
+
+.questions h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left:70px;
+}
+
+.questions p{
+    font-size: 15px;
+    width: 500px;
+    margin-left:500px;
+    padding:20px;
+}
+
+.questions button{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #092D43;
+    border:none;
+    color: white; 
+    margin-left: 50px;
+}
+.questions button i{
+    padding: 10px;
+}
+.questions button:hover{
+    background-color: rgba(0, 255, 255, 0.305);
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer{
+    background-color: #7ebfbb;
+    height: 400px;
+    font-family:Poppins;
+}
+
+.footer .right-section{
+    margin-left: 250px;
+}
+
+.footer .right-section .comp-logo{
+    padding: 50px 0px 90px 0px;
+}
+
+.social-icon img{
+    padding: 0px 10px 40px 20px;
+}
+
+.right-section h4{
+    color: #092D43;
+}
+
+.left-section{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+
+.left-section li{
+    list-style: none;
+    color: #092D43;
+}
+
+.support{
+    margin-left: 100px;
+}
+
+.support h2, .company h2{
+    padding: 0px 0px 30px 0px;
+}
+
+.support li, .company li{
+    padding: 10px;
+}
+
+.support li:hover, .company li:hover{
+    color: #fff;
+}
